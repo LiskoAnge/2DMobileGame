@@ -1,0 +1,4 @@
+#Mon Oct 10 15:56:09 BST 2022
+base.0=/Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
