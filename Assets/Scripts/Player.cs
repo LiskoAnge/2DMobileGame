@@ -10,8 +10,8 @@ public class Player : MonoBehaviour
     [SerializeField] private Transform bulletPos;
     public float timer = 1;
 
-    //Animator anim;
-    Rigidbody2D rgbd;
+    private Animator anim;
+    private Rigidbody2D rgbd;
 
 
     public GameObject gameOverPanel;
@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
         Physics.IgnoreLayerCollision(0, 17);   //ignore collision between player and bullet
         gameOverPanel.SetActive(false);
         rgbd = GetComponent<Rigidbody2D>();
-        //anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
     }
 
     private void Update()
@@ -37,11 +37,10 @@ public class Player : MonoBehaviour
         {
             Fire();
         }
-        /*
-        if (HealthBar.lifeBar == 0)
+        if(HealthBar.lifeBar == 0)
         {
             StartCoroutine("GameOver");
-        } */
+        }
     }
 
     public void Fire()
@@ -71,10 +70,12 @@ public class Player : MonoBehaviour
     IEnumerator PlayerHit()
     {
         Physics2D.IgnoreLayerCollision(7, 10, true);    //temporarily disable collision with enemies
+        anim.SetBool("playerHit", true);
         HealthBar.lifeBar += -1;    //decrease healthbar
         Debug.Log(HealthBar.lifeBar);
-        yield return new WaitForSeconds(1);   //player is invincible for 1 sec
+        yield return new WaitForSeconds(1.5f);   //player is invincible for 1 sec
         Physics2D.IgnoreLayerCollision(7, 10, false);
+        anim.SetBool("playerHit", false);
 
         //rgbd.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, -10f), ForceMode2D.Impulse);  this only works with dynamic rigidbodies - player is atm kinematic but maybe I'll change it in a later stage
     }
@@ -88,7 +89,7 @@ public class Player : MonoBehaviour
         Debug.Log("game over");//console message
         //parameter inside the animator met -> animation start
         //fire explosion animation
-        //anim.SetTrigger("explosion");
+        anim.SetTrigger("playerDeath");
         //wait until the end of animation
         FindObjectOfType<SoundManager>().PlayerExplosion();
         yield return new WaitForSeconds(0.59f);

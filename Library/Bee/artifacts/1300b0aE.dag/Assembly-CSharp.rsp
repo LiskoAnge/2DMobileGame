@@ -403,6 +403,7 @@
 "Assets/Scripts/Bullet.cs"
 "Assets/Scripts/GM.cs"
 "Assets/Scripts/HealthBar.cs"
+"Assets/Scripts/MenuBckg.cs"
 "Assets/Scripts/MoveRocket.cs"
 "Assets/Scripts/ObjectPool.cs"
 "Assets/Scripts/Player.cs"

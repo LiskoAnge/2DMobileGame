@@ -10,14 +10,14 @@ public class Asteroid : MonoBehaviour
     private int currentNumHit;
 
     Rigidbody2D rb;
-    //Animator ani;
+    Animator ani;
     CircleCollider2D cObst;
 
     void Start()
     {
         cObst = GetComponent<CircleCollider2D>();
         rb = GetComponent<Rigidbody2D>();
-        //ani = GetComponent<Animator>();
+        ani = GetComponent<Animator>();
     }
 
     void Update()
@@ -55,7 +55,7 @@ public class Asteroid : MonoBehaviour
 
     IEnumerator DestroyAsteroid()
     {
-        //ani.SetTrigger("obstExplosion");
+        ani.SetTrigger("asteroidExploded");
         FindObjectOfType<SoundManager>().AsteroidExplosion();
         yield return new WaitForSeconds(0.48f);
         gameObject.SetActive(false);
