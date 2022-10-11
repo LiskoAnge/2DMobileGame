@@ -81,6 +81,7 @@
     <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/CustomPremadeModifier.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/FreeModifier.cs" />
     <Compile Include="Assets/Scripts/MenuBckg.cs" />
+    <Compile Include="Assets/Scripts/BulletParticle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

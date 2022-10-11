@@ -339,6 +339,7 @@
 "Assets/ProceduralUIImage/Scripts/ProceduralImageModifier.cs"
 "Assets/Scripts/Asteroid.cs"
 "Assets/Scripts/Bullet.cs"
+"Assets/Scripts/BulletParticle.cs"
 "Assets/Scripts/GM.cs"
 "Assets/Scripts/HealthBar.cs"
 "Assets/Scripts/MenuBckg.cs"

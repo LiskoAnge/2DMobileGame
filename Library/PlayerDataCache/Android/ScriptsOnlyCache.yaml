@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Asteroid
     - Bullet
+    - BulletParticle
     - GM
     - HealthBar
     - MenuBckg
@@ -212,11 +213,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7788}
     - Class: 114
       Script: {instanceID: 8724}
+    - Class: 114
+      Script: {instanceID: 71870}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 212
       Script: {instanceID: 0}
@@ -392,7 +399,7 @@ ScriptsOnlyBuild:
     className: ObjectPool
   - hash:
       serializedVersion: 2
-      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+      Hash: b6351264ca847d76850a50ba825fee57
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Bullet
@@ -746,7 +753,7 @@ ScriptsOnlyBuild:
     className: TextMeshPro
   - hash:
       serializedVersion: 2
-      Hash: 1325fd2262beba9108a40f0e164b21d3
+      Hash: 6383f452bd264e83017b2a512d0c5b43
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GM
@@ -1488,6 +1495,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MenuBckg
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BulletParticle
   platform: 13
   scenePathNames:
   - Assets/Scenes/Menu.unity
