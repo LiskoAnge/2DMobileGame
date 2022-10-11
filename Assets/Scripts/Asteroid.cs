@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Asteroid : MonoBehaviour
 {
-    private float obstSpeed = 3;
+    private float obstSpeed = 1;
     private float rotationSpeed = 27f;
     private int hitToDestroy = 3;
     private int currentNumHit;
@@ -57,7 +57,7 @@ public class Asteroid : MonoBehaviour
     {
         ani.SetTrigger("asteroidExploded");
         FindObjectOfType<SoundManager>().AsteroidExplosion();
-        yield return new WaitForSeconds(0.48f);
+        yield return new WaitForSeconds(0.56f);
         gameObject.SetActive(false);
     }
     /*

@@ -8,6 +8,7 @@ TagManager:
   - TopScreen
   - Asteroid
   - BottomScreen
+  - psBullet
   layers:
   - Default
   - TransparentFX

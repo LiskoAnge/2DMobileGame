@@ -8,6 +8,8 @@ public class GM : MonoBehaviour
 
 
     public Vector3 spawnPosition;
+
+    public Vector3 bulletPos;
     //public Vector3 spawnRotation;
 
 
@@ -38,6 +40,7 @@ public class GM : MonoBehaviour
             timer = 7;
         }
     }
+
     /*
     public void SpawnSmallObject()
     {

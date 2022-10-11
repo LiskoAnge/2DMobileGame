@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-
     public float speed = 10f;
     private Rigidbody2D rb;
     //private Animator anim;
+
 
     private void Start()
     {
@@ -22,18 +22,6 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag.Equals("TopScreen"))
-        {
-            StartCoroutine("DestroyBullet");
-        } 
-    }
-
-    IEnumerator DestroyBullet()
-    {
-
-        //anim.SetTrigger("bulletExplodes");
-        yield return new WaitForSeconds(0.10f);
         gameObject.SetActive(false);
-
     }
 }
