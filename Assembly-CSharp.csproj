@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E4F964CC-2E66-E15C-32C6-BDFDF13F41D0}</ProjectGuid>
+    <ProjectGuid>{4870F876-B8D3-BFB3-84F7-E8F6C0D85365}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,30 +56,30 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/ObjectPool.cs" />
+    <Compile Include="Assets/Scripts/Bullet.cs" />
+    <Compile Include="Assets/Scripts/Asteroid.cs" />
     <Compile Include="Assets/Scripts/ToggleButtons.cs" />
     <Compile Include="Assets/Scripts/SceneLoader.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/RoundModifier.cs" />
+    <Compile Include="Assets/Scripts/HealthBar.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/ProceduralImageModifier.cs" />
+    <Compile Include="Assets/Scripts/ScrollingBackground.cs" />
+    <Compile Include="Assets/Scripts/GM.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/UniformModifier.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/ProceduralImage.cs" />
     <Compile Include="Assets/Scripts/SoundManager.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/EmptySprite.cs" />
+    <Compile Include="Assets/Scripts/Player.cs" />
     <Compile Include="Assets/Scripts/SettingsStorage.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
+    <Compile Include="Assets/NiceToHave/Gyroscope.cs" />
+    <Compile Include="Assets/Scripts/MoveRocket.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/Attributes/ModifierID.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/OnlyOneEdgeModifier.cs" />
+    <Compile Include="Assets/Scripts/Score.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/CustomPremadeModifier.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/FreeModifier.cs" />
-    <Compile Include="Assets/Scripts/Score.cs" />
-    <Compile Include="Assets/Scripts/Player.cs" />
-    <Compile Include="Assets/Scripts/HealthBar.cs" />
-    <Compile Include="Assets/Scripts/ObjectPool.cs" />
-    <Compile Include="Assets/Scripts/Bullet.cs" />
-    <Compile Include="Assets/Scripts/MoveRocket.cs" />
-    <Compile Include="Assets/Scripts/GM.cs" />
-    <Compile Include="Assets/Scripts/ScrollingBackground.cs" />
-    <Compile Include="Assets/NiceToHave/Gyroscope.cs" />
-    <Compile Include="Assets/Scripts/Asteroid.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

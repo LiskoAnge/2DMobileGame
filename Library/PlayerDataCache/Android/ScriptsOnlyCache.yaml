@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - ReadmeEditor
     Assembly-CSharp.dll:
     - Asteroid
     - Bullet
@@ -7,6 +9,7 @@ ScriptsOnlyBuild:
     - MoveRocket
     - ObjectPool
     - Player
+    - Readme
     - SceneLoader
     - Score
     - ScrollingBackground
@@ -19,7 +22,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
@@ -35,8 +37,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.GroupBrush
     - UnityEditor.Tilemaps.LineBrush
     - UnityEditor.Tilemaps.RandomBrush
-    Unity.Mobile.AndroidLogcat.Editor.dll:
-    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -157,41 +157,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1660}
     - Class: 114
-      Script: {instanceID: 2960}
+      Script: {instanceID: 1980}
     - Class: 114
-      Script: {instanceID: 3240}
+      Script: {instanceID: 1984}
     - Class: 114
-      Script: {instanceID: 3628}
+      Script: {instanceID: 2970}
     - Class: 114
-      Script: {instanceID: 3652}
+      Script: {instanceID: 3164}
     - Class: 114
-      Script: {instanceID: 5548}
+      Script: {instanceID: 3252}
     - Class: 114
-      Script: {instanceID: 6310}
+      Script: {instanceID: 3644}
     - Class: 114
-      Script: {instanceID: 6746}
+      Script: {instanceID: 3668}
     - Class: 114
-      Script: {instanceID: 7088}
+      Script: {instanceID: 4190}
     - Class: 114
-      Script: {instanceID: 7296}
+      Script: {instanceID: 4262}
     - Class: 114
-      Script: {instanceID: 7746}
+      Script: {instanceID: 5580}
     - Class: 114
-      Script: {instanceID: 32050}
+      Script: {instanceID: 6342}
     - Class: 114
-      Script: {instanceID: 32056}
+      Script: {instanceID: 6654}
     - Class: 114
-      Script: {instanceID: 32210}
+      Script: {instanceID: 6782}
     - Class: 114
-      Script: {instanceID: 32216}
+      Script: {instanceID: 7124}
     - Class: 114
-      Script: {instanceID: 32224}
+      Script: {instanceID: 7334}
     - Class: 114
-      Script: {instanceID: 32232}
+      Script: {instanceID: 7366}
     - Class: 114
-      Script: {instanceID: 32240}
+      Script: {instanceID: 7788}
     - Class: 114
-      Script: {instanceID: 43908}
+      Script: {instanceID: 8724}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -234,37 +234,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1660}
     - Class: 114
-      Script: {instanceID: 2420}
+      Script: {instanceID: 2428}
     - Class: 114
-      Script: {instanceID: 2960}
+      Script: {instanceID: 2970}
     - Class: 114
-      Script: {instanceID: 3240}
+      Script: {instanceID: 3252}
     - Class: 114
-      Script: {instanceID: 3276}
+      Script: {instanceID: 3288}
     - Class: 114
-      Script: {instanceID: 3628}
+      Script: {instanceID: 3644}
     - Class: 114
-      Script: {instanceID: 3652}
+      Script: {instanceID: 3668}
     - Class: 114
-      Script: {instanceID: 4992}
+      Script: {instanceID: 5020}
     - Class: 114
-      Script: {instanceID: 5202}
+      Script: {instanceID: 5230}
     - Class: 114
-      Script: {instanceID: 5344}
+      Script: {instanceID: 5372}
     - Class: 114
-      Script: {instanceID: 5352}
+      Script: {instanceID: 5380}
     - Class: 114
-      Script: {instanceID: 5548}
+      Script: {instanceID: 5580}
     - Class: 114
-      Script: {instanceID: 6310}
+      Script: {instanceID: 6342}
     - Class: 114
-      Script: {instanceID: 6746}
+      Script: {instanceID: 6782}
     - Class: 114
-      Script: {instanceID: 7088}
+      Script: {instanceID: 7124}
     - Class: 114
-      Script: {instanceID: 7296}
+      Script: {instanceID: 7334}
     - Class: 114
-      Script: {instanceID: 7746}
+      Script: {instanceID: 7788}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -302,6 +302,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.AdaptivePerformance.dll
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: AdaptiveDecals
   - hash:
       serializedVersion: 2
       Hash: 61f2059db36c32396c3d12077855592b
@@ -350,6 +356,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.AdaptivePerformance.dll
     namespaceName: UnityEngine.AdaptivePerformance
     className: AdaptiveShadowmapResolution
+  - hash:
+      serializedVersion: 2
+      Hash: 0957db1937a368e32ad1ac3af7bb54e4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObjectPool
+  - hash:
+      serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Bullet
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -479,6 +497,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Asteroid
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: CoroutineRunner
@@ -524,6 +548,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.AdaptivePerformance.dll
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: AdaptivePhysics
   - hash:
       serializedVersion: 2
       Hash: 9b2d72155209a515197b0788f9f11a91
@@ -610,6 +640,12 @@ ScriptsOnlyBuild:
     className: UnityOnMouseDownMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 4a27ab178fbdef6367156eec701c6a14
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HealthBar
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -664,6 +700,12 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
+      Hash: 60e0d6448bf02910080cd52cc9357ab6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScrollingBackground
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -674,6 +716,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 1325fd2262beba9108a40f0e164b21d3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GM
   - hash:
       serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
@@ -988,6 +1036,12 @@ ScriptsOnlyBuild:
     className: SpriteSkinUpdateHelper
   - hash:
       serializedVersion: 2
+      Hash: 154692bd34cf2273fbf942d9551a71ae
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Player
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -1036,10 +1090,22 @@ ScriptsOnlyBuild:
     className: Readme
   - hash:
       serializedVersion: 2
+      Hash: b8d70cce8c795e21f0c9a5a5f30779a2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Gyroscope
+  - hash:
+      serializedVersion: 2
       Hash: 760787567e1b60d64a3e421ab83ee14a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 57a92a76e95d6bfdab369533273d47ca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoveRocket
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1192,6 +1258,12 @@ ScriptsOnlyBuild:
     className: UnityOnScrollRectValueChangedMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 671e8a5d7be57741097a5a6ec3a98664
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Score
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -1214,6 +1286,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
     className: SpriteLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.AdaptivePerformance.dll
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: AdaptiveLayerCulling
   - hash:
       serializedVersion: 2
       Hash: a81d4c2c1cf3ad164d277d927a193679
@@ -1376,86 +1454,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 671e8a5d7be57741097a5a6ec3a98664
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Score
-  - hash:
-      serializedVersion: 2
-      Hash: 154692bd34cf2273fbf942d9551a71ae
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Player
-  - hash:
-      serializedVersion: 2
-      Hash: 4a27ab178fbdef6367156eec701c6a14
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HealthBar
-  - hash:
-      serializedVersion: 2
-      Hash: 0957db1937a368e32ad1ac3af7bb54e4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ObjectPool
-  - hash:
-      serializedVersion: 2
-      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Bullet
-  - hash:
-      serializedVersion: 2
-      Hash: 57a92a76e95d6bfdab369533273d47ca
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MoveRocket
-  - hash:
-      serializedVersion: 2
-      Hash: 1325fd2262beba9108a40f0e164b21d3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GM
-  - hash:
-      serializedVersion: 2
-      Hash: 60e0d6448bf02910080cd52cc9357ab6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ScrollingBackground
-  - hash:
-      serializedVersion: 2
-      Hash: b8d70cce8c795e21f0c9a5a5f30779a2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Gyroscope
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Unity.AdaptivePerformance.dll
-    namespaceName: UnityEngine.AdaptivePerformance
-    className: AdaptiveLayerCulling
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Unity.AdaptivePerformance.dll
-    namespaceName: UnityEngine.AdaptivePerformance
-    className: AdaptiveDecals
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Unity.AdaptivePerformance.dll
-    namespaceName: UnityEngine.AdaptivePerformance
-    className: AdaptivePhysics
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Asteroid
   platform: 13
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Game.unity
-  playerPath: /Users/angeladematte/Desktop/MobileGameGalaxytrip.apk
+  playerPath: /Users/angeladematte/Desktop/MobileGameGalaxyTrip.apk

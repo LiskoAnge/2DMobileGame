@@ -7,164 +7,164 @@
 7
 8    <uses-sdk
 9        android:minSdkVersion="22"
-9-->/Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml
+9-->/Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml
 10        android:targetSdkVersion="30" />
-10-->/Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml
+10-->/Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml
 11
 12    <supports-screens
-12-->/Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:3-163
+12-->/Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:3-163
 13        android:anyDensity="true"
-13-->/Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:135-160
+13-->/Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:135-160
 14        android:largeScreens="true"
-14-->/Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:78-105
+14-->/Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:78-105
 15        android:normalScreens="true"
-15-->/Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:49-77
+15-->/Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:49-77
 16        android:smallScreens="true"
-16-->/Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:21-48
+16-->/Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:21-48
 17        android:xlargeScreens="true" />
-17-->/Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:106-134
+17-->/Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:106-134
 18
 19    <uses-feature android:glEsVersion="0x00030000" />
-19-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-54
-19-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:12:19-51
+19-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:12:19-51
 20    <uses-feature
-20-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-15:36
+20-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-15:36
 21        android:name="android.hardware.vulkan.version"
-21-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:14:9-55
+21-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:14:9-55
 22        android:required="false" />
-22-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:15:9-33
+22-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:15:9-33
 23
 24    <uses-permission android:name="android.permission.INTERNET" />
-24-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:17:5-67
-24-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:17:22-64
+24-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:17:5-67
+24-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:17:22-64
 25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-25-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:18:5-79
-25-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:18:22-76
+25-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:18:5-79
+25-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:18:22-76
 26
 27    <uses-feature
-27-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:20:5-22:36
+27-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:20:5-22:36
 28        android:name="android.hardware.sensor.accelerometer"
-28-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:21:9-61
+28-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:21:9-61
 29        android:required="false" />
-29-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:22:9-33
+29-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:22:9-33
 30    <uses-feature
-30-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:23:5-25:36
+30-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:23:5-25:36
 31        android:name="android.hardware.touchscreen"
-31-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:24:9-52
+31-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:24:9-52
 32        android:required="false" />
-32-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:25:9-33
+32-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:25:9-33
 33    <uses-feature
-33-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:26:5-28:36
+33-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:26:5-28:36
 34        android:name="android.hardware.touchscreen.multitouch"
-34-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:27:9-63
+34-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:27:9-63
 35        android:required="false" />
-35-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:28:9-33
+35-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:28:9-33
 36    <uses-feature
-36-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:29:5-31:36
+36-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:29:5-31:36
 37        android:name="android.hardware.touchscreen.multitouch.distinct"
-37-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:30:9-72
+37-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:30:9-72
 38        android:required="false" />
-38-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:31:9-33
+38-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:31:9-33
 39
 40    <application
-40-->/Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:3-83
+40-->/Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:3-83
 41        android:extractNativeLibs="true"
-41-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:33:18-50
+41-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:33:18-50
 42        android:icon="@mipmap/app_icon"
-42-->/Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:49-80
+42-->/Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:49-80
 43        android:label="@string/app_name" >
-43-->/Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:16-48
+43-->/Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:16-48
 44        <activity
-44-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:34:9-54:20
+44-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:34:9-54:20
 45            android:name="com.unity3d.player.UnityPlayerActivity"
-45-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:35:13-66
+45-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:35:13-66
 46            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-46-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:36:13-194
+46-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:36:13-194
 47            android:hardwareAccelerated="false"
-47-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:37:13-48
+47-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:37:13-48
 48            android:launchMode="singleTask"
-48-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:13-44
+48-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:13-44
 49            android:resizeableActivity="false"
-49-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:39:13-47
+49-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:39:13-47
 50            android:screenOrientation="fullUser"
-50-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:40:13-49
+50-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:40:13-49
 51            android:theme="@style/UnityThemeSelector" >
-51-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:41:13-54
+51-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:41:13-54
 52            <intent-filter>
-52-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:42:13-46:29
+52-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:42:13-46:29
 53                <action android:name="android.intent.action.MAIN" />
-53-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:43:17-69
-53-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:43:25-66
+53-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:43:17-69
+53-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:43:25-66
 54
 55                <category android:name="android.intent.category.LAUNCHER" />
-55-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:45:17-77
-55-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:45:27-74
+55-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:45:17-77
+55-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:45:27-74
 56            </intent-filter>
 57
 58            <meta-data
-58-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:48:13-50:40
+58-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:48:13-50:40
 59                android:name="unityplayer.UnityActivity"
-59-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:49:17-57
+59-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:49:17-57
 60                android:value="true" />
-60-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:50:17-37
+60-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:50:17-37
 61            <meta-data
-61-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:51:13-53:40
+61-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:51:13-53:40
 62                android:name="android.notch_support"
-62-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:52:17-53
+62-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:52:17-53
 63                android:value="true" />
-63-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:53:17-37
+63-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:53:17-37
 64        </activity>
 65
 66        <meta-data
-66-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:56:9-58:33
+66-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:56:9-58:33
 67            android:name="unity.splash-mode"
-67-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:57:13-45
+67-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:57:13-45
 68            android:value="0" />
-68-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:58:13-30
+68-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:58:13-30
 69        <meta-data
-69-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:59:9-61:36
+69-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:59:9-61:36
 70            android:name="unity.splash-enable"
-70-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:60:13-47
+70-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:60:13-47
 71            android:value="True" />
-71-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:61:13-33
+71-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:61:13-33
 72        <meta-data
-72-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:62:9-64:36
+72-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:62:9-64:36
 73            android:name="unity.launch-fullscreen"
-73-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:63:13-51
+73-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:63:13-51
 74            android:value="True" />
-74-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:64:13-33
+74-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:64:13-33
 75        <meta-data
-75-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:65:9-67:37
+75-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:65:9-67:37
 76            android:name="unity.allow-resizable-window"
-76-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:66:13-56
+76-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:66:13-56
 77            android:value="False" />
-77-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:67:13-34
+77-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:67:13-34
 78        <meta-data
-78-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:68:9-70:50
+78-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:68:9-70:50
 79            android:name="notch.config"
-79-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:69:13-40
+79-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:69:13-40
 80            android:value="portrait|landscape" />
-80-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:70:13-47
+80-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:70:13-47
 81
 82        <receiver
-82-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:72:9-74:40
+82-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:72:9-74:40
 83            android:name="com.unity.androidnotifications.UnityNotificationManager"
-83-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:73:13-83
+83-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:73:13-83
 84            android:exported="false" />
-84-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:74:13-37
+84-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:74:13-37
 85        <receiver
-85-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:75:9-82:20
+85-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:75:9-82:20
 86            android:name="com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
-86-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:76:13-97
+86-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:76:13-97
 87            android:enabled="false"
-87-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:77:13-36
+87-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:77:13-36
 88            android:exported="false" >
-88-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:78:13-37
+88-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:78:13-37
 89            <intent-filter>
-89-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:79:13-81:29
+89-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:79:13-81:29
 90                <action android:name="android.intent.action.BOOT_COMPLETED" />
-90-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:80:17-79
-90-->[:unityLibrary] /Users/angeladematte/Desktop/MobileGameGalaxyTrip/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:80:25-76
+90-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:80:17-79
+90-->[:unityLibrary] /Users/angeladematte/Desktop/2DMobileGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:80:25-76
 91            </intent-filter>
 92        </receiver>
 93    </application>
