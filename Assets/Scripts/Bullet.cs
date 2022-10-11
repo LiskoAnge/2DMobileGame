@@ -6,12 +6,13 @@ public class Bullet : MonoBehaviour
 {
     public float speed = 10f;
     private Rigidbody2D rb;
-    //private Animator anim;
+    private Animator anim;
 
 
     private void Start()
     {
-        //anim = GetComponent<Animator>();
+        speed = 10;
+        anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -22,6 +23,15 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        StartCoroutine("BulletHit");
+    }
+
+    IEnumerator BulletHit()
+    {
+        speed = 0;
+        anim.SetTrigger("bulletHit");
+        yield return new WaitForSeconds(.20f);
+        speed = 10;
         gameObject.SetActive(false);
     }
 }
