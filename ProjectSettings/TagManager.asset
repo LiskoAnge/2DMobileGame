@@ -9,6 +9,7 @@ TagManager:
   - Asteroid
   - BottomScreen
   - psBullet
+  - smallAsteroid
   layers:
   - Default
   - TransparentFX

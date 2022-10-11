@@ -6,16 +6,14 @@ public class Asteroid : MonoBehaviour
 {
     private float obstSpeed = 1;
     private float rotationSpeed = 27f;
-    private int hitToDestroy = 3;
+    public int hitToDestroy = 3;
     private int currentNumHit;
 
     Rigidbody2D rb;
     Animator ani;
-    CircleCollider2D cObst;
 
     void Start()
     {
-        cObst = GetComponent<CircleCollider2D>();
         rb = GetComponent<Rigidbody2D>();
         ani = GetComponent<Animator>();
     }
@@ -23,7 +21,7 @@ public class Asteroid : MonoBehaviour
     void Update()
     {
         rb.velocity = new Vector2(0f, -obstSpeed);
-        //moving obstacle towards player in the y axis
+        //moving obstacle towards player on the y axis
 
 
         transform.Rotate(0, 0, rotationSpeed * Time.deltaTime);

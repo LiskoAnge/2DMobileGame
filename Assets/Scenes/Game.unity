@@ -1179,8 +1179,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2ab21dd437b2475facbb626f256358c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 5
+  timer: 2
   spawnPosition: {x: 0, y: 0, z: 0}
+  bulletPos: {x: 0, y: 0, z: 0}
 --- !u!4 &501153320
 Transform:
   m_ObjectHideFlags: 0
@@ -1420,10 +1421,12 @@ MonoBehaviour:
   itemsToPool:
   - objectToPool: {fileID: 1949836926587596680, guid: 0f05b750cc2c54748823fdb4dccb8dd0, type: 3}
     amountToPool: 10
-  - objectToPool: {fileID: 4586687527315152931, guid: c0e67aadac3b243f4aaba0ea98e89acd, type: 3}
-    amountToPool: 10
   - objectToPool: {fileID: 249657961487062694, guid: 7fbab6c998a5a4a61bc14577b8946550, type: 3}
     amountToPool: 10
+  - objectToPool: {fileID: 4586687527315152931, guid: c0e67aadac3b243f4aaba0ea98e89acd, type: 3}
+    amountToPool: 5
+  - objectToPool: {fileID: 4886816736577761978, guid: 26997a7bbf39a40159e26101b5414b77, type: 3}
+    amountToPool: 5
 --- !u!4 &850484277
 Transform:
   m_ObjectHideFlags: 0

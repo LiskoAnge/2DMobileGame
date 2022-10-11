@@ -9,7 +9,6 @@ public class MoveRocket : MonoBehaviour
     private Rigidbody2D rb;
     private float moveSpeed = 10f;
 
-
     private void Start()
     {
         rb = FindObjectOfType<Rigidbody2D>();
@@ -30,5 +29,4 @@ public class MoveRocket : MonoBehaviour
             }
         }
     }
-
 }

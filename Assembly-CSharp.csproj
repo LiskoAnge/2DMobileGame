@@ -80,6 +80,7 @@
     <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/OnlyOneEdgeModifier.cs" />
     <Compile Include="Assets/Scripts/Score.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/CustomPremadeModifier.cs" />
+    <Compile Include="Assets/Scripts/SmallAsteroid.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/FreeModifier.cs" />
   </ItemGroup>
   <ItemGroup>
