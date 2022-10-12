@@ -5,9 +5,12 @@ using UnityEngine;
 public class BulletParticle : MonoBehaviour
 {
     private ParticleSystem ps;
+    public GameObject thisParticle;
 
     private void Start()
     {
+        ps = GetComponent<ParticleSystem>();
+
         if (!ps.isPlaying)
         {
             ps.Play();
@@ -21,7 +24,7 @@ public class BulletParticle : MonoBehaviour
 
     IEnumerator DestroyParticle()
     {
-        yield return new WaitForSeconds(2);
-        gameObject.SetActive(false);
+        yield return new WaitForSeconds(.55f);
+        thisParticle.SetActive(false);
     }
 }

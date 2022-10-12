@@ -6,7 +6,7 @@ public class Asteroid : MonoBehaviour
 {
     private float obstSpeed = 1;
     private float rotationSpeed = 27f;
-    private int hitToDestroy = 3;
+    private int hitToDestroy = 2;
     private int currentNumHit;
 
     Rigidbody2D rb;
@@ -40,10 +40,12 @@ public class Asteroid : MonoBehaviour
         if (other.gameObject.tag.Equals("Bullet"))
         {
             currentNumHit++;
+            //Debug.Log(currentNumHit);
             //FindObjectOfType<SoundManager>().ExplosionSound();  not sure i want sound here 
 
             if (currentNumHit >= hitToDestroy)
             {
+                currentNumHit = 0;
                 StartCoroutine("DestroyAsteroid");
                 //ani.SetTrigger("obstExplosion");
                 //FindObjectOfType<SoundManager>().ExplosionSound();

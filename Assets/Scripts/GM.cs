@@ -22,7 +22,7 @@ public class GM : MonoBehaviour
         else
         {
             SpawnObject();
-            //SpawnSmallObject();
+            SpawnSmallObject();
         }
     }
 
@@ -41,21 +41,19 @@ public class GM : MonoBehaviour
         }
     }
 
-    /*
     public void SpawnSmallObject()
     {
-        GameObject smallAsteroid = ObjectPool.sharedInstance.GetPooledObject("SmallAsteroid");
+        GameObject smallAsteroid = ObjectPool.sharedInstance.GetPooledObject("smallAsteroid");
 
         if (smallAsteroid != null)
         {
-            spawnPosition = new Vector3(Random.Range(-8.0F, 10.0F), Random.Range(27.0F, 30.0F), 0);
+            spawnPosition = new Vector3(Random.Range(-2.2F, 2.2F), Random.Range(5F, 5.1F), 0);
             smallAsteroid.transform.position = spawnPosition;
             //bigAsteroid.transform.rotation = spawnRotation;
             smallAsteroid.SetActive(true);
             timer = 3;
         }
-
-    } */
+    } 
 
     /*
      * var SpawnObject : GameObject;

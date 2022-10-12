@@ -412,6 +412,7 @@
 "Assets/Scripts/Score.cs"
 "Assets/Scripts/ScrollingBackground.cs"
 "Assets/Scripts/SettingsStorage.cs"
+"Assets/Scripts/SmallAsteroid.cs"
 "Assets/Scripts/SoundManager.cs"
 "Assets/Scripts/ToggleButtons.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"

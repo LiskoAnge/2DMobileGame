@@ -70,6 +70,7 @@
     <Compile Include="Assets/ProceduralUIImage/Scripts/ProceduralImage.cs" />
     <Compile Include="Assets/Scripts/SoundManager.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/EmptySprite.cs" />
+    <Compile Include="Assets/Scripts/MenuBckg.cs" />
     <Compile Include="Assets/Scripts/Player.cs" />
     <Compile Include="Assets/Scripts/SettingsStorage.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
@@ -79,8 +80,8 @@
     <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/OnlyOneEdgeModifier.cs" />
     <Compile Include="Assets/Scripts/Score.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/CustomPremadeModifier.cs" />
+    <Compile Include="Assets/Scripts/SmallAsteroid.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/FreeModifier.cs" />
-    <Compile Include="Assets/Scripts/MenuBckg.cs" />
     <Compile Include="Assets/Scripts/BulletParticle.cs" />
   </ItemGroup>
   <ItemGroup>
