@@ -31,6 +31,7 @@
 -a="/Users/angeladematte/Desktop/2DMobileGame/Library/PlayerScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll"
 -a="/Users/angeladematte/Desktop/2DMobileGame/Library/PlayerScriptAssemblies/Unity.VisualScripting.State.dll"
 -a="/Users/angeladematte/Desktop/2DMobileGame/Library/PlayerScriptAssemblies/Unity.Services.Core.Device.dll"
+-a="/Users/angeladematte/Desktop/2DMobileGame/Library/PlayerScriptAssemblies/Unity.Postprocessing.Runtime.dll"
 -a="/Users/angeladematte/Desktop/2DMobileGame/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll"
 -a="/Users/angeladematte/Desktop/2DMobileGame/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -a="/Users/angeladematte/Desktop/2DMobileGame/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.Unsafe.dll"
