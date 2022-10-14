@@ -1427,6 +1427,8 @@ MonoBehaviour:
     amountToPool: 5
   - objectToPool: {fileID: 3588033906623776064, guid: 26997a7bbf39a40159e26101b5414b77, type: 3}
     amountToPool: 5
+  - objectToPool: {fileID: 7575569090043004233, guid: 9627d3d9f61be4b1c9e155eed0058b82, type: 3}
+    amountToPool: 5
 --- !u!4 &850484277
 Transform:
   m_ObjectHideFlags: 0

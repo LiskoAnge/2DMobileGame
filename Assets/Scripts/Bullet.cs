@@ -6,13 +6,11 @@ public class Bullet : MonoBehaviour
 {
     public float speed = 10f;
     private Rigidbody2D rb;
-    //private Animator anim;
     public Vector3 bulPos;
 
     private void Start()
     {
         bulPos = new Vector3(0, 0, 0);
-        //anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -36,5 +34,4 @@ public class Bullet : MonoBehaviour
         }
         gameObject.SetActive(false);
     }
-
 }

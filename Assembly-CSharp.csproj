@@ -66,6 +66,7 @@
     <Compile Include="Assets/ProceduralUIImage/Scripts/ProceduralImageModifier.cs" />
     <Compile Include="Assets/Scripts/ScrollingBackground.cs" />
     <Compile Include="Assets/Scripts/GM.cs" />
+    <Compile Include="Assets/Scripts/Particle.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/UniformModifier.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/ProceduralImage.cs" />
     <Compile Include="Assets/Scripts/SoundManager.cs" />
@@ -82,7 +83,6 @@
     <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/CustomPremadeModifier.cs" />
     <Compile Include="Assets/Scripts/SmallAsteroid.cs" />
     <Compile Include="Assets/ProceduralUIImage/Scripts/Modifiers/FreeModifier.cs" />
-    <Compile Include="Assets/Scripts/BulletParticle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

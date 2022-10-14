@@ -3,17 +3,18 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Asteroid
     - Bullet
-    - BulletParticle
     - GM
     - HealthBar
     - MenuBckg
     - MoveRocket
     - ObjectPool
+    - Particle
     - Player
     - SceneLoader
     - Score
     - ScrollingBackground
     - SettingsStorage
+    - SmallAsteroid
     - SoundManager
     - ToggleButtons
     - UniformModifier
@@ -38,8 +39,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.GroupBrush
     - UnityEditor.Tilemaps.LineBrush
     - UnityEditor.Tilemaps.RandomBrush
-    Unity.Mobile.AndroidLogcat.Editor.dll:
-    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -51,10 +50,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -174,47 +171,49 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1660}
+      Script: {instanceID: 1672}
     - Class: 114
-      Script: {instanceID: 1980}
+      Script: {instanceID: 1992}
     - Class: 114
-      Script: {instanceID: 1984}
+      Script: {instanceID: 1996}
     - Class: 114
-      Script: {instanceID: 2970}
+      Script: {instanceID: 2982}
     - Class: 114
-      Script: {instanceID: 3164}
+      Script: {instanceID: 3176}
     - Class: 114
-      Script: {instanceID: 3252}
+      Script: {instanceID: 3264}
     - Class: 114
-      Script: {instanceID: 3644}
+      Script: {instanceID: 3656}
     - Class: 114
-      Script: {instanceID: 3668}
+      Script: {instanceID: 3680}
     - Class: 114
-      Script: {instanceID: 3752}
+      Script: {instanceID: 3764}
     - Class: 114
-      Script: {instanceID: 4190}
+      Script: {instanceID: 4202}
     - Class: 114
-      Script: {instanceID: 4262}
+      Script: {instanceID: 4274}
     - Class: 114
-      Script: {instanceID: 5580}
+      Script: {instanceID: 4612}
     - Class: 114
-      Script: {instanceID: 6342}
+      Script: {instanceID: 5594}
     - Class: 114
-      Script: {instanceID: 6654}
+      Script: {instanceID: 6356}
     - Class: 114
-      Script: {instanceID: 6782}
+      Script: {instanceID: 6670}
     - Class: 114
-      Script: {instanceID: 7124}
+      Script: {instanceID: 6798}
     - Class: 114
-      Script: {instanceID: 7334}
+      Script: {instanceID: 7140}
     - Class: 114
-      Script: {instanceID: 7366}
+      Script: {instanceID: 7350}
     - Class: 114
-      Script: {instanceID: 7788}
+      Script: {instanceID: 7382}
     - Class: 114
-      Script: {instanceID: 8724}
+      Script: {instanceID: 7804}
     - Class: 114
-      Script: {instanceID: 71870}
+      Script: {instanceID: 8740}
+    - Class: 114
+      Script: {instanceID: 9878}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -265,41 +264,41 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1660}
+      Script: {instanceID: 1672}
     - Class: 114
-      Script: {instanceID: 2428}
+      Script: {instanceID: 2440}
     - Class: 114
-      Script: {instanceID: 2970}
+      Script: {instanceID: 2982}
     - Class: 114
-      Script: {instanceID: 3252}
+      Script: {instanceID: 3264}
     - Class: 114
-      Script: {instanceID: 3288}
+      Script: {instanceID: 3300}
     - Class: 114
-      Script: {instanceID: 3644}
+      Script: {instanceID: 3656}
     - Class: 114
-      Script: {instanceID: 3668}
+      Script: {instanceID: 3680}
     - Class: 114
-      Script: {instanceID: 5020}
+      Script: {instanceID: 5034}
     - Class: 114
-      Script: {instanceID: 5230}
+      Script: {instanceID: 5244}
     - Class: 114
-      Script: {instanceID: 5372}
+      Script: {instanceID: 5386}
     - Class: 114
-      Script: {instanceID: 5380}
+      Script: {instanceID: 5394}
     - Class: 114
-      Script: {instanceID: 5580}
+      Script: {instanceID: 5594}
     - Class: 114
-      Script: {instanceID: 6342}
+      Script: {instanceID: 6356}
     - Class: 114
-      Script: {instanceID: 6782}
+      Script: {instanceID: 6616}
     - Class: 114
-      Script: {instanceID: 7124}
+      Script: {instanceID: 6798}
     - Class: 114
-      Script: {instanceID: 7334}
+      Script: {instanceID: 7140}
     - Class: 114
-      Script: {instanceID: 7788}
+      Script: {instanceID: 7350}
     - Class: 114
-      Script: {instanceID: 31822}
+      Script: {instanceID: 7804}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -531,7 +530,7 @@ ScriptsOnlyBuild:
     className: AdaptiveSorting
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: e7a3a89c3a20c572370dbccee99fef35
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Asteroid
@@ -801,6 +800,12 @@ ScriptsOnlyBuild:
     className: UnityOnPointerExitMessageListener
   - hash:
       serializedVersion: 2
+      Hash: c31a96063b7a377d1704a968348416f9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Particle
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.AdaptivePerformance.dll
     namespaceName: UnityEngine.AdaptivePerformance
@@ -1057,6 +1062,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UIElements
     className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MenuBckg
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -1449,6 +1460,12 @@ ScriptsOnlyBuild:
     className: SpriteLibrarySourceAsset
   - hash:
       serializedVersion: 2
+      Hash: e7a3a89c3a20c572370dbccee99fef35
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SmallAsteroid
+  - hash:
+      serializedVersion: 2
       Hash: 9ab217c95f2d30d20c15fa60346413d5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1489,18 +1506,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MenuBckg
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BulletParticle
   platform: 13
   scenePathNames:
   - Assets/Scenes/Menu.unity

@@ -9,15 +9,15 @@ public class Asteroid : MonoBehaviour
     private int hitToDestroy = 2;
     private int currentNumHit;
 
+    public Vector3 astPos;
+
     Rigidbody2D rb;
-    Animator ani;
     CircleCollider2D cObst;
 
     void Start()
     {
         cObst = GetComponent<CircleCollider2D>();
         rb = GetComponent<Rigidbody2D>();
-        ani = GetComponent<Animator>();
     }
 
     void Update()
@@ -45,8 +45,19 @@ public class Asteroid : MonoBehaviour
 
             if (currentNumHit >= hitToDestroy)
             {
+                astPos = other.transform.position;
+                GameObject psAsteroid = ObjectPool.sharedInstance.GetPooledObject("psAsteroid");
+
+                if (psAsteroid != null)
+                {
+                    psAsteroid.transform.position = astPos;
+                    //FindObjectOfType<SoundManager>().BulletSound();
+                    psAsteroid.SetActive(true);
+                    astPos = new Vector3(0, 0, 0);
+                }
+                gameObject.SetActive(false);
                 currentNumHit = 0;
-                StartCoroutine("DestroyAsteroid");
+
                 //ani.SetTrigger("obstExplosion");
                 //FindObjectOfType<SoundManager>().ExplosionSound();
                 //Destroy(gameObject, 0.48f);
@@ -55,13 +66,6 @@ public class Asteroid : MonoBehaviour
         }
     }
 
-    IEnumerator DestroyAsteroid()
-    {
-        ani.SetTrigger("asteroidExploded");
-        FindObjectOfType<SoundManager>().AsteroidExplosion();
-        yield return new WaitForSeconds(0.56f);
-        gameObject.SetActive(false);
-    }
     /*
     if (other.gameObject.tag.Equals("tBullet"))
     {
