@@ -156,6 +156,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: ToggleButtons
     methodName: OnSoundToggleClick
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: SoundManager
     methodName: PlaySoundButton
@@ -168,6 +171,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: SceneLoader
     methodName: ChangeToScene
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   sceneClasses:
     Assets/Scenes/Game.unity:
     - Class: 1
@@ -231,6 +237,10 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4612}
     - Class: 114
+      Script: {instanceID: 5244}
+    - Class: 114
+      Script: {instanceID: 5394}
+    - Class: 114
       Script: {instanceID: 5594}
     - Class: 114
       Script: {instanceID: 6356}
@@ -261,6 +271,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 43034}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -294,6 +306,8 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 49
+      Script: {instanceID: 0}
+    - Class: 72
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
@@ -345,6 +359,16 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7350}
     - Class: 114
       Script: {instanceID: 7804}
+    - Class: 114
+      Script: {instanceID: 42878}
+    - Class: 114
+      Script: {instanceID: 42996}
+    - Class: 114
+      Script: {instanceID: 43008}
+    - Class: 114
+      Script: {instanceID: 43022}
+    - Class: 114
+      Script: {instanceID: 43034}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -972,7 +996,7 @@ ScriptsOnlyBuild:
     className: AdaptiveTransparency
   - hash:
       serializedVersion: 2
-      Hash: bb8cc00c9af2589d54c257268e483f98
+      Hash: 7f05cb89417de9a490563149af9be0fa
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SoundManager

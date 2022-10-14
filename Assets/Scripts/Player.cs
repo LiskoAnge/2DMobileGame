@@ -71,8 +71,9 @@ public class Player : MonoBehaviour
     {
         Physics2D.IgnoreLayerCollision(7, 10, true);    //temporarily disable collision with enemies
         anim.SetBool("playerHit", true);
+        FindObjectOfType<SoundManager>().PlayerExplosion();
         HealthBar.lifeBar += -1;    //decrease healthbar
-        Debug.Log(HealthBar.lifeBar);
+        //Debug.Log(HealthBar.lifeBar);
         yield return new WaitForSeconds(1.5f);   //player is invincible for 1 sec
         Physics2D.IgnoreLayerCollision(7, 10, false);
         anim.SetBool("playerHit", false);
@@ -86,7 +87,7 @@ public class Player : MonoBehaviour
         //game over bool to check for highscore in different function
         Physics2D.IgnoreLayerCollision(7, 10, true);
         gameOver = true;
-        Debug.Log("game over");//console message
+        //Debug.Log("game over");//console message
         //parameter inside the animator met -> animation start
         //fire explosion animation
         anim.SetTrigger("playerDeath");

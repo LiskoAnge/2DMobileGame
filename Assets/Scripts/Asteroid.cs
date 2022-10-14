@@ -41,7 +41,7 @@ public class Asteroid : MonoBehaviour
         {
             currentNumHit++;
             //Debug.Log(currentNumHit);
-            //FindObjectOfType<SoundManager>().ExplosionSound();  not sure i want sound here 
+            FindObjectOfType<SoundManager>().AsteroidExplosion();
 
             if (currentNumHit >= hitToDestroy)
             {
@@ -51,7 +51,7 @@ public class Asteroid : MonoBehaviour
                 if (psAsteroid != null)
                 {
                     psAsteroid.transform.position = astPos;
-                    //FindObjectOfType<SoundManager>().BulletSound();
+                    FindObjectOfType<SoundManager>().AsteroidExplosion();
                     psAsteroid.SetActive(true);
                     astPos = new Vector3(0, 0, 0);
                 }

@@ -5,9 +5,11 @@ using UnityEngine;
 public class SoundManager : MonoBehaviour
 {
     public AudioSource soundBtn;
-    public AudioSource astExplosion;
+    public AudioSource astExplosion1;
+    public AudioSource astExplosion2;
     public AudioSource pExplosion;
     public AudioSource bulletSound;
+
 
     private SettingsStorage settings;
 
@@ -26,9 +28,21 @@ public class SoundManager : MonoBehaviour
 
     public void AsteroidExplosion()
     {
-        if (settings.enableSound == true && !astExplosion.isPlaying)
+        int randomSound = Random.Range(0, 1);
+
+      
+        if (settings.enableSound == true)
         {
-            astExplosion.Play();
+
+            if (randomSound == 0 && !astExplosion1.isPlaying)
+            {
+                astExplosion1.Play();
+            }
+            else if (randomSound == 0 && !astExplosion2.isPlaying)
+            {
+                astExplosion2.Play();
+            }
+ 
         }
     }
 

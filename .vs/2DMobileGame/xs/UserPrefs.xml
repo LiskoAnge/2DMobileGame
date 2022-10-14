@@ -1,18 +1,18 @@
 ﻿<Properties StartupConfiguration="{4870F876-B8D3-BFB3-84F7-E8F6C0D85365}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Particle.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SoundManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/Bullet.cs" Line="10" Column="3" />
-      <File FileName="Assets/Scripts/SmallAsteroid.cs" Line="38" Column="8" />
-      <File FileName="Assets/Scripts/ObjectPool.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/MenuBckg.cs" Line="9" Column="33" />
-      <File FileName="Assets/Scripts/Player.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Score.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/HealthBar.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Asteroid.cs" Line="46" Column="47" />
-      <File FileName="Assets/Scripts/GM.cs" Line="50" Column="95" />
+      <File FileName="Assets/Scripts/Asteroid.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Bullet.cs" />
+      <File FileName="Assets/Scripts/SmallAsteroid.cs" />
+      <File FileName="Assets/Scripts/ObjectPool.cs" />
+      <File FileName="Assets/Scripts/MenuBckg.cs" />
+      <File FileName="Assets/Scripts/Player.cs" />
+      <File FileName="Assets/Scripts/Score.cs" />
+      <File FileName="Assets/Scripts/HealthBar.cs" />
+      <File FileName="Assets/Scripts/GM.cs" />
       <File FileName="Assets/Scripts/SoundManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/MoveRocket.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Particle.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MoveRocket.cs" />
+      <File FileName="Assets/Scripts/Particle.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,7 +20,7 @@
           <Node name="2DMobileGame" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Particle.cs" selected="True" />
+                <Node name="Asteroid.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -30,7 +30,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="702ccce6-5340-4b76-a417-7aa70081fa6b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="66005b54-f04c-446d-9114-2cef1b3df7c1" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

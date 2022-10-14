@@ -31,7 +31,7 @@ public class SmallAsteroid : MonoBehaviour
         if (psAsteroid != null)
         {
             psAsteroid.transform.position = astPos;
-            //FindObjectOfType<SoundManager>().BulletSound();
+            FindObjectOfType<SoundManager>().AsteroidExplosion();
             psAsteroid.SetActive(true);
             astPos = new Vector3(0, 0, 0);
         }
